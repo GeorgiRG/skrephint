@@ -12,7 +12,7 @@ namespace skrephint
             //Console.WriteLine("Hello World!");
             var options = new FirefoxOptions();
             
-            using (var driver = new FirefoxDriver("C:\\Users\\elisa\\source\\repos\\skrephint", options))
+            using (var driver = new FirefoxDriver("pth", options))
             {
                 // Go to the home page
 
